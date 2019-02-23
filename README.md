@@ -2,8 +2,8 @@
 
 ## Demo
 <p align="center">
-    <img src="https://raw.github.com/vcjpierre/ionic4-crono/master/assets/demo1.png" height="600em"/>
-     <img src="https://raw.github.com/vcjpierre/ionic4-crono/master/assets/demo2.png" height="600em"/>
+    <img src="https://raw.github.com/vcjpierre/ionic4-crono/master/src/assets/demo1.png" height="600em"/>
+     <img src="https://raw.github.com/vcjpierre/ionic4-crono/master/src/assets/demo2.png" height="600em"/>
 </p>
 
 ## Setup
