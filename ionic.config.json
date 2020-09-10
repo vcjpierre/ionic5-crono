@@ -1,7 +1,7 @@
 {
-  "name": "restrr",
+  "name": "ionic5-crono",
   "integrations": {
-    "cordova": {}
+    "capacitor": {}
   },
   "type": "angular"
 }
