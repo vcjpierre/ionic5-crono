@@ -20,8 +20,8 @@ import { NavigationBar } from '@ionic-native/navigation-bar/ngx';
     SplashScreen,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
     Insomnia,
-    NavigationBar
+    NavigationBar,
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule {}

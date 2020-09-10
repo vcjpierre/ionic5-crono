@@ -1,17 +1,17 @@
-import { Component } from "@angular/core";
+import { Component } from '@angular/core';
 import { Insomnia } from "@ionic-native/insomnia/ngx";
 import { NavigationBar } from "@ionic-native/navigation-bar/ngx";
 
 @Component({
   selector: "app-home",
   templateUrl: "home.page.html",
-  styleUrls: ["home.page.scss"]
+  styleUrls: ["home.page.scss"],
 })
 export class HomePage {
   elapsed: any = {
     h: "00",
     m: "00",
-    s: "00"
+    s: "00",
   };
   progress: any = 0;
   overallProgress: any = 0;
@@ -26,7 +26,7 @@ export class HomePage {
   countDownTimer: any = false;
   timeLeft: any = {
     m: "00",
-    s: "00"
+    s: "00",
   };
   remainingTime = `${this.timeLeft.m}:${this.timeLeft.s}`;
 
@@ -102,11 +102,11 @@ export class HomePage {
     this.elapsed = {
       h: "00",
       m: "00",
-      s: "00"
+      s: "00",
     };
     this.timeLeft = {
       m: "00",
-      s: "00"
+      s: "00",
     };
     this.remainingTime = `${this.pad(this.timeLeft.m, 2)}:${this.pad(
       this.timeLeft.s,
