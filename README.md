@@ -2,20 +2,21 @@
 
 ## Demo
 <p align="center">
-    <img src="https://raw.github.com/vcjpierre/ionic4-crono/master/src/assets/demo1.png" height="600em"/>
-     <img src="https://raw.github.com/vcjpierre/ionic4-crono/master/src/assets/demo2.png" height="600em"/>
+      <img src="docs/demo1.png" height="600em"/>
+      <img src="docs/demo2.png" height="600em"/>
 </p>
 
 ## Setup
 
 Requirements to use this project:
 
-##### Node.js (https://nodejs.org/download/)
+- [Node.js](https://nodejs.org/download/)
 
-##### Cordova & Ionic Cli
-To install both of them on your system just launch this command:
+- [Ionic CLI](https://ionicframework.com/docs/intro/cli)
+
+Install the Ionic CLI with npm:
 ```sh
-$ npm install cordova ionic -g
+$ npm install -g @ionic/cli
 ```
 
 ## Install NPM Dependencies
@@ -35,21 +36,21 @@ $ ionic serve
 ```
 Ionic:
 
-   ionic (Ionic CLI)             : 4.10.3 
-   Ionic Framework               : @ionic/angular 4.0.2
-   @angular-devkit/build-angular : 0.12.4
-   @angular-devkit/schematics    : 7.2.4
-   @angular/cli                  : 7.2.4
-   @ionic/angular-toolkit        : 1.4.0
+   Ionic CLI                     : 6.11.8
+   Ionic Framework               : @ionic/angular 5.3.2
+   @angular-devkit/build-angular : 0.1000.8
+   @angular-devkit/schematics    : 10.0.8
+   @angular/cli                  : 10.0.8
+   @ionic/angular-toolkit        : 2.3.3
 
-Cordova:
+Capacitor:
 
-   cordova (Cordova CLI) : 8.1.2 (cordova-lib@8.1.1)
+   Capacitor CLI   : 2.4.1
+   @capacitor/core : 2.4.1
 
 System:
 
-   Android SDK Tools : 26.1.1 
-   NodeJS            : v11.9.0 
-   npm               : 6.5.0
-   OS                : Windows 10
+   NodeJS : v12.16.2
+   npm    : 6.14.5
+   OS     : Windows 10
 ```
